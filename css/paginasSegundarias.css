@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-primaria: #54BAB9;
+    --cor-secundaria: #E9DAC1;
+    --cor-terciaria: #F7ECDE;
+    --cor-hover: #18978F;
+
+    --fonte-principal: 'Prompt', sans-serif;
+}
+
+.paginas-secundarias {
+    padding: 3em 0em;
+    color: white;
+}
+
+.apresentacao__conteudo__quem-sou-eu {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 5em 0em;
+    gap: 5em;
+}
+
+.apresentacao__conteudo__quem-sou-eu__texto {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    width: 40em;
+    font-size: 1.3em;
+
+}
+
+.apresentacao__conteudo__quem-sou-eu__texto__paragrafo {
+    font-size: 1.1em;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 1em;
+    padding: 0.5em 0 0;
+}
+
+.apresentacao__conteudo__sobre-mim {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+.apresentacao__conteudo__imagem-sobre-mim img {
+    max-width: 25em;
+}
+
+.apresentacao__conteudo__minhas-habilidades {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+.presentacao__conteudo__minhas-habilidades__div-spans {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0 3rem;
+
+}
+
+.presentacao__conteudo__minhas-habilidades__span {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1.2em;
+    color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+/*Experiências*/
+
+
+
+.apresentacao__experiencias__conteudo {
+    display: flex;
+    justify-content: space-around;
+    gap: 7rem;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+
+.apresentacao__experiencias img {
+    max-height: 23rem;
+    max-width: 25rem;
+}
+
+.apresentacao__experiencias__texto {
+    font-family: var(--fonte-principal);
+    width: 37rem;
+}
+
+.apresentacao__experiencias__titulo {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.apresentacao__experiencias__sub-titulo {
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 0.8rem 0;
+}
+
+.apresentacao__experiencias__div__paragrafos {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.apresentacao__experiencias__paragrafos {
+    font-size: 1.2em;
+    font-weight: 200;
+    padding: 0.3rem 0;
+}
+
+/*Habilidades*/
+
+.apresentacao__habilidades__conteudos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.apresentacao__habilidade__conteudo {
+    width: 50rem;
+    align-items: center;
+    margin: 0;
+    padding: 2rem 0 0;
+}
+
+.apresentacao__habilidades-lista {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 1.2em;
+    font-weight: 200;
+    padding: 0.3rem 0;
+}
+
+.apresentacao__habilidades__texto {
+
+    font-family: var(--fonte-principal);
+    width: 45rem;
+    padding: 1rem 2.5rem;
+    border: 0.5rem solid white;
+    border-radius: 0.5rem;
+
+}
+
+ul {
+    list-style-type: disc;
+}
+
+/*Contato*/
+.contato-linkedin img {
+    max-width: 20rem;
+    padding: 0 2.5rem;
+    background-color: white;
+}

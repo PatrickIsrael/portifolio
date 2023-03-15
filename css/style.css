@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-primaria: #54BAB9;
+    --cor-secundaria: #E9DAC1;
+    --cor-terciaria: #F7ECDE;
+    --cor-hover: #18978F;
+
+    --fonte-principal: 'Prompt', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    /*height: 100vh;*/
+}
+
+.cabecalho {
+    background-color: var(--cor-secundaria);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 4em;
+
+}
+
+.cabecalho__link-perfil img {
+    max-width: 3.5em;
+}
+
+.cabecalho__link-perfil {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    padding: 0em 10em;
+
+}
+
+.cabecalho__link-perfil__link {
+    display: flex;
+    align-items: center;
+    gap: 1.2em;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    color: var(--cor-primaria);
+    text-decoration: none;
+}
+
+.cabecalho__link-perfil__link:hover {
+    color: var(--cor-hover);
+}
+
+.menu-superior {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.item-menu-superior {
+    color: var(--cor-primaria);
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    margin: 3rem;
+    text-decoration: none;
+}
+
+.item-menu-superior:hover {
+    color: var(--cor-hover);
+}
+
+.apresentacao {
+    background-color: var(--cor-primaria);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home {
+    padding: 18rem 0 12rem;
+}
+
+
+
+.apresentacao__conteudo__titulo {
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+.apresentacao__conteudo__paragrafo {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1.3em;
+    padding: 1rem 0 3rem;
+}
+
+.apresentacao__rede-social img {
+    max-width: 50px;
+}
+
+.apresentacao__rede-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 10px solid white;
+    position: absolute;
+    left: 5px;
+    background-color: white;
+    border-radius: 20px;
+    gap: 10px;
+}
+
+.apresentacao__contato {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0 3rem;
+}
+
+.apresentacao__conteudo__minhas-habilidades__saiba-mais {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1.2em;
+    color: var(--cor-terciaria);
+    border: 0.3rem solid var(--cor-secundaria);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.rodape {
+    padding: 24px;
+    color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-weight: 200;
+}
